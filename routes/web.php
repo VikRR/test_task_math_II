@@ -17,4 +17,3 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/', 'MainController@index')->name('main');
-//Route::get('/', 'MainController@parse')->name('main');
